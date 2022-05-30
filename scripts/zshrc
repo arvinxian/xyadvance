@@ -1,0 +1,2 @@
+alias dark='osascript ~/xyadvance/scripts/macos/dark_mode.applescript'
+alias light='osascript ~/xyadvance/scripts/macos/light_mode.applescript'
