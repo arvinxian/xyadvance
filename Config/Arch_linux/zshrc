@@ -16,6 +16,7 @@ source /usr/share/autojump/autojump.zsh
 # keybind configurations
 bindkey "^A" beginning-of-line
 bindkey "^E" end-of-line
+bindkey "^[[3~" delete-char
 
 
 export EDITOR='vim'
