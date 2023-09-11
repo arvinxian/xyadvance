@@ -1,0 +1,24 @@
+# Created by newuser for 5.9
+# export PS1="\u@\h:\w\$ "
+export LIBVIRT_DEFAULT_URI="qemu:///system"
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias rewifi='sudo systemctl restart wpa_supplicant@wlp2s0'
+
+# Zsh environment configuration
+PROMPT="%n@%m:%~%# "
+HISTSIZE=1000
+SAVEHIST=1000
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/autojump/autojump.zsh
+
+# keybind configurations
+bindkey "^A" beginning-of-line
+bindkey "^E" end-of-line
+bindkey "^[[3~" delete-char
+
+
+export EDITOR='vim'
+export M2_HOME=/opt/apache-maven-3.9.4
+export PATH=${PATH}:${M2_HOME}/bin
