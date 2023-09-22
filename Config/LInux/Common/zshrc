@@ -1,0 +1,3 @@
+alias grep='grep --color=auto'
+alias rewifi='sudo systemctl restart wpa_supplicant@wlp2s0'
+alias fpath='find "$(pwd)" -type f'
